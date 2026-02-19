@@ -29,7 +29,7 @@ class NewDog extends NewAnimal{
 public class Quest03 {
     public static void main(String[] args){
         NewAnimal animal = new NewDog("Spike");
-        print(animal);
+        print(animal);//Chama o método com parâmetro NewAnimal
 
     }
 
