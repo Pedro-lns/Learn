@@ -4,6 +4,4 @@ public enum Conta {
     ATIVA,
     BLOQUEADA,
     ENCERRADA;
-
-
 }
