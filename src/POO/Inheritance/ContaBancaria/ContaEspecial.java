@@ -1,7 +1,5 @@
 package POO.Inheritance.ContaBancaria;
 
-import Enums.Exercicios.Conta;
-
 public class ContaEspecial extends ContaBancaria{
     private double limit;
 
