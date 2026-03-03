@@ -1,4 +1,4 @@
-package POO;
+package POO.test;
 
 class Main{
     public static void main(String[] args){

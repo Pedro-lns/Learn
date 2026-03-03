@@ -1,4 +1,4 @@
-package POO;
+package POO.test;
 
 class NewAnimal{
     private String name;

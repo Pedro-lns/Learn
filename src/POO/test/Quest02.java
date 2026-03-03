@@ -1,4 +1,4 @@
-package POO;
+package POO.test;
 
 abstract class Form{
     public abstract double area();

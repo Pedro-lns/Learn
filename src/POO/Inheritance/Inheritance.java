@@ -1,6 +1,4 @@
-package POO;
-
-import javax.crypto.spec.PSource;
+package POO.Inheritance;
 
 //So pra testar
 class Animal{
