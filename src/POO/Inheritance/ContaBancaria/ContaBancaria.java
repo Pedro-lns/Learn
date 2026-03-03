@@ -53,4 +53,8 @@ public class ContaBancaria {
     public String getNumConta() {
         return numConta;
     }
+
+    public void setBalance(double balance) {
+        this.balance = balance;
+    }
 }
