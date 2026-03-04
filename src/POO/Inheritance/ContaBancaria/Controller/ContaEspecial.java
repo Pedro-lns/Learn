@@ -1,11 +1,10 @@
-package POO.Inheritance.ContaBancaria;
+package POO.Inheritance.ContaBancaria.Controller;
 
-public class ContaEspecial extends ContaBancaria{
+public class ContaEspecial extends ContaBancaria {
     private double limit;
 
-    ContaEspecial(String nomeConta, String numConta, double balance, double limit){
-        super(nomeConta, numConta, balance);
-        this.limit = limit;
+    public ContaEspecial(String nomeConta, String numConta){
+        super(nomeConta, numConta);
     }
 
     @Override
@@ -33,5 +32,9 @@ public class ContaEspecial extends ContaBancaria{
         System.out.printf("Saque: %,.2f\n", value);
         System.out.printf("Saldo: %,.2f\n", balance);
         System.out.println("--".repeat(30));
+    }
+
+    public void setLimit(double limit) {
+        this.limit = limit;
     }
 }

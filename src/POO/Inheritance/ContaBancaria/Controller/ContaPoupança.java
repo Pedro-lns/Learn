@@ -1,11 +1,10 @@
-package POO.Inheritance.ContaBancaria;
+package POO.Inheritance.ContaBancaria.Controller;
 
-public class ContaPoupança extends ContaBancaria{
+public class ContaPoupança extends ContaBancaria {
     private int diaRendimento;
 
-    ContaPoupança(String nomeConta, String numConta, double balance, int diaRendimento){
-        super(nomeConta, numConta, balance);
-        this.diaRendimento = diaRendimento;
+    public ContaPoupança(String nomeConta, String numConta){
+        super(nomeConta, numConta);
     }
 
     public void calcularNovoSaldo(){
@@ -21,5 +20,9 @@ public class ContaPoupança extends ContaBancaria{
         System.out.printf("Receita: R$:%,.2f\n", receita);
         System.out.printf("Saldo: R$:$,.2f\n", super.getBalance());
         System.out.println("--".repeat(30));
+    }
+
+    public void setDiaRendimento(int diaRendimento) {
+        this.diaRendimento = diaRendimento;
     }
 }

@@ -1,14 +1,13 @@
-package POO.Inheritance.ContaBancaria;
+package POO.Inheritance.ContaBancaria.Controller;
 
 public class ContaBancaria {
     private String nomeClient;
     private String numConta;
-    private double balance;
+    private double balance = 0;
 
-    ContaBancaria(String nomeClient, String numConta, double balance){
+    ContaBancaria(String nomeClient, String numConta){
         this.nomeClient = nomeClient;
         this.numConta = numConta;
-        this.balance = balance;
     }
 
     public void sacar(double value){
